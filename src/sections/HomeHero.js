@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { Typewriter, Cursor } from 'react-simple-typewriter';
 // components
 import SocialLinks from '../components/social/SocialLinks';
-import mainImg from '../assets/images/image1.png';
+import mainImg from '../assets/images/logo.png';
 // other
 import { aboutParagraph, HERO_TITLES } from '../mock/profile';
 import { ScrollContext } from '../context/ScrollContext';
