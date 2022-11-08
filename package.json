@@ -1,0 +1,40 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "lint": "next lint",
+    "lint:es": "eslint --ext .js,.jsx .",
+    "lint:fix": "eslint --fix --ext .js,.jsx .",
+    "dev": "next dev -p 3031",
+    "start": "next start",
+    "build": "next build",
+    "export": "yarn build && next export -o _static",
+    "clear-all": "rm -rf .next .swc _static node_modules",
+    "re-start": "rm -rf .next .swc _static node_modules && yarn install && yarn dev",
+    "re-build": "rm -rf .next .swc _static node_modules && yarn install && yarn build"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.9.1",
+    "@iconify/react": "^4.0.0",
+    "eslint": "8.26.0",
+    "eslint-config-next": "13.0.1",
+    "lottie-react": "^2.3.1",
+    "next": "13.0.1",
+    "prop-types": "^15.8.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-simple-typewriter": "^4.0.5"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.25.0",
+    "eslint-config-next": "^12.3.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-react": "^7.31.10",
+    "postcss": "^8.4.14",
+    "prettier": "^2.7.1",
+    "prettier-plugin-tailwindcss": "^0.1.13",
+    "tailwindcss": "^3.2.1"
+  }
+}

@@ -1,0 +1,141 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #383838;
+}
+
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background:  #6b6b6b;
+  border: 46px none #ffffff;
+  border-radius: 7px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background:  rgba(12, 164, 235, 0.6);
+}
+::-webkit-scrollbar-thumb:active {
+  background: rgba(12, 164, 235, 0.6);
+}
+::-webkit-scrollbar-track {
+  background: #383838;
+  border: 50px none #ffffff;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #3b3b3b;
+}
+::-webkit-scrollbar-track:active {
+  background: #333333;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+#mouse-scroll {
+  -webkit-transform: translateX(-50%);
+}
+#mouse-scroll span {
+  display: block;
+  width: 5px;
+  height: 5px;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  transform: rotate(45deg);
+  margin: 0 0 3px 8px;
+}
+#mouse-scroll .mouse {
+  height: 30px;
+  width: 21px;
+  border-radius: 20px;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+#mouse-scroll .down-arrow-1 {
+  margin-top: 5px;
+}
+#mouse-scroll .down-arrow-1,
+#mouse-scroll .down-arrow-2,
+#mouse-scroll .down-arrow-3 {
+  -webkit-animation: mouse-scroll 1s infinite;
+  -moz-animation: mouse-scroll 1s infinite;
+}
+#mouse-scroll .down-arrow-1 {
+  -webkit-animation-delay: 0.1s;
+  -moz-animation-delay: 0.1s;
+  -webkit-animation-direction: alternate;
+}
+#mouse-scroll .down-arrow-2 {
+  -webkit-animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
+  -webkit-animation-direction: alternate;
+}
+#mouse-scroll .down-arrow-3 {
+  -webkit-animation-delay: 0.3s;
+  -moz-animation-dekay: 0.3s;
+  -webkit-animation-direction: alternate;
+}
+#mouse-scroll .mouse-in {
+  height: 5px;
+  width: 2px;
+  display: block;
+  margin: 5px auto;
+  position: relative;
+}
+#mouse-scroll .mouse-in {
+  -webkit-animation: animated-mouse 1.2s ease infinite;
+  moz-animation: mouse-animated 1.2s ease infinite;
+}
+
+@-webkit-keyframes animated-mouse {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(6px);
+    -ms-transform: translateY(6px);
+    transform: translateY(6px);
+  }
+}
+@-webkit-keyframes mouse-scroll {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes mouse-scroll {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
