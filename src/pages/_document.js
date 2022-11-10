@@ -10,7 +10,7 @@ export default function Document() {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin={true} />
         <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap" rel="stylesheet" />
       </Head>
-      <body className="relative bg-neutral-50 font-roboto text-neutral-700 transition-colors duration-500 dark:bg-neutral-900 dark:text-neutral-200">
+      <body className="relative bg-neutral-50 font-roboto text-neutral-700 transition-colors duration-150 dark:bg-neutral-900 dark:text-neutral-200">
         <Main />
         <NextScript />
       </body>
