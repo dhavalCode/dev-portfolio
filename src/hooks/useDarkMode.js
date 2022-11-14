@@ -25,27 +25,6 @@ export default function useDarkMode() {
       document.documentElement.classList.add('dark');
       localStorage.setItem('theme-mode', 'dark');
     }
-
-    /* // If is set in localstorage
-    if (localStorage.getItem('theme-mode')) {
-      // If light, make dark and save in localstorage
-      if (localStorage.getItem('theme-mode') === 'light') {
-        document.documentElement.classList.add('dark');
-        localStorage.setItem('theme-mode', 'dark');
-      } else {
-        document.documentElement.classList.remove('dark');
-        localStorage.setItem('theme-mode', 'light');
-      }
-    } else {
-      // If not in localstorage
-      if (document.documentElement.classList.contains('dark')) {
-        document.documentElement.classList.remove('dark');
-        localStorage.setItem('theme-mode', 'light');
-      } else {
-        document.documentElement.classList.add('dark');
-        localStorage.setItem('theme-mode', 'dark');
-      }
-    } */
   };
 
   return {

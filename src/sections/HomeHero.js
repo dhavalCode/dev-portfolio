@@ -19,13 +19,16 @@ export default function HomeHero() {
       <div className="relative z-0 mx-auto h-full w-full max-w-lg">
         <div className="absolute top-0 -right-4 h-56 w-56 animate-blob rounded-full bg-red-500 opacity-50 mix-blend-multiply blur-2xl filter" />
         <div className="animation-delay-2000 absolute top-0 -left-4 h-56 w-56 animate-blob rounded-full bg-teal-600 opacity-50 mix-blend-multiply blur-2xl filter" />
-        <div className="animation-delay-3000 absolute -top-14 left-20 h-56 w-56 animate-blob rounded-full bg-yellow-600 opacity-50 mix-blend-multiply blur-2xl filter" />
+        <div className="animation-delay-3000 absolute -top-14 left-20 h-56 w-56 animate-blob rounded-full bg-yellow-400 opacity-50 mix-blend-multiply blur-2xl filter" />
       </div>
       <div className="z-50 flex flex-col items-center space-y-5 sm:space-y-10">
         <motion.div
-          initial={{ opacity: 0, scale: 0,}}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}
+          initial={{ scale: 0, opacity: 0 }}
+          animate={{ scale: [0.1, 0.3, 0.5, 0.7, 1], rotate: [360, 270, 180, 90, 0], opacity: 1 }}
+          transition={{
+            duration: 1,
+            ease: 'linear',
+          }}
         >
           <Image src={mainImg} className="w-52 object-contain lg:w-64" alt="Logo" />
         </motion.div>

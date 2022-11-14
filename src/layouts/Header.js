@@ -12,21 +12,21 @@ export default function Header({ darkModeEnabled, toggleMode }) {
   return (
     <header className="container mx-auto">
       <nav
-        className={`fixed top-0 right-0 z-[1000] flex h-14 w-full items-center justify-between px-4 md:h-16 md:px-[4%] ${
+        className={`fixed top-0 right-0 z-[1000] flex w-full items-center justify-between h-16 px-4 md:h-16 md:px-[4%] ${
           isScroll ? 'backdrop-blur-xl backdrop-filter' : ''
         }`}
       >
         <motion.div
           initial={{ opacity: 0, scale: 0.5, x: -500 }}
           animate={{ opacity: 1, scale: 1, x: 0 }}
-          transition={{ duration: 1 }}
+          transition={{ duration: 1.5, delay: 1 }}
         >
           <h3 className="text-md font-lato font-semibold tracking-widest md:text-2xl">&lt;DhavalPatel /&gt;</h3>
         </motion.div>
         <motion.div
           initial={{ opacity: 0, scale: 0.5, x: 500 }}
           animate={{ opacity: 1, scale: 1, x: 0 }}
-          transition={{ duration: 1 }}
+          transition={{ duration: 1.5, delay: 1 }}
         >
           <ul className="flex items-center space-x-3">
             <li>
@@ -35,8 +35,8 @@ export default function Header({ darkModeEnabled, toggleMode }) {
               </a>
             </li>
             <li>
-              <a href="#hireMe" className="text-sm xs:text-base">
-                Hire Me
+              <a href="#contact" className="text-sm xs:text-base">
+                Contact
               </a>
             </li>
             <li>
