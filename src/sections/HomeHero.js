@@ -23,12 +23,15 @@ export default function HomeHero() {
       </div>
       <div className="z-50 flex flex-col items-center space-y-5 sm:space-y-10">
         <motion.div
-          initial={{ scale: 0, opacity: 0 }}
-          animate={{ scale: [0.1, 0.3, 0.5, 0.7, 1], rotate: [360, 270, 180, 90, 0], opacity: 1 }}
+          initial={{ y: 200, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
           transition={{
-            duration: 1,
-            ease: 'linear',
+            type: 'spring',
+            bounce: 0.9,
+            duration: 2.5,
+            delay: 0.5,
           }}
+          viewport={{ once: true }}
         >
           <Image src={mainImg} className="w-52 object-contain lg:w-64" alt="Logo" />
         </motion.div>

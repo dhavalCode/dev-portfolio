@@ -3,6 +3,8 @@ import emailjs from '@emailjs/browser';
 // components
 import Iconify from '../components/Iconify';
 import SocialLinks from '../components/social/SocialLinks';
+import HeadingAnimate from '../components/animate/HeadingAnimate';
+// mock
 import { contactEmail } from '../mock/profile';
 
 // ----------------------------------------------------------------------
@@ -34,9 +36,11 @@ export default function Contact() {
   return (
     <section className="container mx-auto px-5 pt-12 pb-10" id="contact">
       <div className="mb-12 flex w-full flex-col text-center">
-        <h2 className="text-center font-lato text-4xl font-semibold text-primary-700 dark:text-primary-300 sm:text-5xl">
-          Get In Touch
-        </h2>
+        <HeadingAnimate>
+          <h2 className="text-center font-lato text-4xl font-semibold text-primary-700 dark:text-primary-300 sm:text-5xl">
+            Get In Touch
+          </h2>
+        </HeadingAnimate>
         <p className="mx-auto mt-5 text-base leading-relaxed opacity-80 md:w-1/2">
           I'm actively looking for any new opportunities, my inbox is always open. Whether you have a question or want
           to hire me or just want to say hello, I'll try my best to get back to you!
