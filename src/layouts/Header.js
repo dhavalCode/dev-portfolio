@@ -19,14 +19,14 @@ export default function Header({ darkModeEnabled, toggleMode }) {
         <motion.div
           initial={{ opacity: 0, scale: 0.5, x: -500 }}
           animate={{ opacity: 1, scale: 1, x: 0 }}
-          transition={{ duration: 2, delay: 1.5 }}
+          transition={{ duration: 2, delay: 0.5 }}
         >
           <h3 className="text-md font-lato font-semibold tracking-widest md:text-2xl">&lt;DhavalPatel /&gt;</h3>
         </motion.div>
         <motion.div
           initial={{ opacity: 0, scale: 0.5, x: 500 }}
           animate={{ opacity: 1, scale: 1, x: 0 }}
-          transition={{ duration: 2, delay: 1.5 }}
+          transition={{ duration: 2, delay: 0.5 }}
         >
           <ul className="flex items-center space-x-3">
             <li>

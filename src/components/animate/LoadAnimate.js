@@ -2,15 +2,15 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import PropTypes from 'prop-types';
 
-function LoadAnimate({ children }) {
+function LoadAnimate({ children, amount = 0.5 }) {
   return (
     <motion.div
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
+      initial={{ opacity: 0, x: -100 }}
+      whileInView={{ opacity: 1, x: 0 }}
       transition={{
-        duration: 1,
+        duration: 0.7,
       }}
-      viewport={{ once: false, amount: 0.7 }}
+      viewport={{ once: false, amount: amount }}
     >
       {children}
     </motion.div>
@@ -19,6 +19,7 @@ function LoadAnimate({ children }) {
 
 LoadAnimate.propTypes = {
   children: PropTypes.node,
+  amount: PropTypes.number,
 };
 
 export default LoadAnimate;

@@ -23,13 +23,13 @@ export default function HomeHero() {
       </div>
       <div className="z-50 flex flex-col items-center space-y-5 sm:space-y-10">
         <motion.div
-          initial={{ y: 200, opacity: 0 }}
+          initial={{ y: -200, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{
             type: 'spring',
-            bounce: 0.9,
-            duration: 2.5,
-            delay: 0.5,
+            bounce: 0.5,
+            duration: 3,
+            delay: 3,
           }}
           viewport={{ once: true }}
         >
