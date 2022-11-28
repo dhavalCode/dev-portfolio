@@ -35,7 +35,7 @@ export default function Contact() {
     }
   };
   return (
-    <section className="container mx-auto px-5 pt-12 pb-10" id="contact">
+    <section className="container mx-auto mt-5 px-5 pt-12 pb-10">
       <div className="mb-12 flex w-full flex-col text-center">
         <HeadingAnimate amount={1}>
           <h2 className="text-center font-lato text-4xl font-semibold text-primary-700 dark:text-primary-300 sm:text-5xl">

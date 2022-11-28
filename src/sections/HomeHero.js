@@ -29,9 +29,9 @@ export default function HomeHero() {
             type: 'spring',
             bounce: 0.5,
             duration: 3,
-            delay: 3,
+            delay: 1.7,
           }}
-          viewport={{ once: true }}
+          viewport={{ once: true}}
         >
           <Image src={mainImg} className="w-52 object-contain lg:w-64" alt="Logo" />
         </motion.div>

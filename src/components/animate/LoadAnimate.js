@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 function LoadAnimate({ children, amount = 0.5 }) {
   return (
     <motion.div
-      initial={{ opacity: 0, x: -100 }}
+      initial={{ opacity: 0, x: -120 }}
       whileInView={{ opacity: 1, x: 0 }}
       transition={{
         duration: 0.7,
