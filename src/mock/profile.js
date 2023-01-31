@@ -1,22 +1,21 @@
 export const SOCIAL_LINKS = [
   {
-    link: '//twitter.com/dhaval_dev',
+    link: '//twitter.com/dhavalCode',
     icon: 'akar-icons:twitter-fill',
   },
   {
-    link: '//twitter.com/dhaval_dev',
+    link: '//github.com/dhavalcode',
     icon: 'akar-icons:github-fill',
   },
   {
-    link: '//twitter.com/dhaval_dev',
+    link: '//linkedin.com/in/dhavalcode',
     icon: 'akar-icons:linkedin-fill',
   },
 ];
 
-export const HERO_TITLES = ['Dhaval Patel', 'Full-stack Developer', 'System Architect', 'Researcher'];
+export const HERO_TITLES = ['Dhaval Patel', 'Full-stack Developer', 'Javascript Enthusiast'];
 
-export const aboutParagraph = 'I am a frontend web developer. I can provide clean code and pixel perfect design. I also make website more more interactive with web animations.';
+export const aboutParagraph =
+  'Highly motivated and enthusiastic Full Stack Developer with expertise in delivering user-friendly interfaces, REST APIs, and integrating front-end and back-end components.';
 
-export const contactEmail = "works.dhaval@gmail.com"
-
-
+export const contactEmail = 'works.dhaval@gmail.com';

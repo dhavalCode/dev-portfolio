@@ -51,7 +51,7 @@ export default function HomeHero() {
             <Cursor />
           </span>
         </h1>
-        <p>{aboutParagraph}</p>
+        <p className='md:w-3/5 text-center'>{aboutParagraph}</p>
         {/* Social Icons */}
         <SocialLinks />
       </div>

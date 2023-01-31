@@ -41,7 +41,8 @@ export const PROJECTS = [
       getSkillByLabel(FULLSTACK_SKILLS, 'PostgreSQL'),
     ],
     description:
-      'Flipkart Clone is done with top-notch features for the entrepreneur startups like Flipkart. It has strong authentication system with SMS OTP verification. It has Paytm Integration so that it can get money from anywhere.',
+      `A smart restaurant system POS is a type of point of sale technology specifically designed for restaurants and food service businesses.
+      Mainly worked on proving billing management, kitchen management, QR Orders etc. `,
     repoLink: '',
     sourceLink: 'https://www.servofeat.com',
     category: [PROJECT_CATEGORY.FULL_STACK],
@@ -59,7 +60,7 @@ export const PROJECTS = [
       getSkillByLabel(FULLSTACK_SKILLS, 'PostgreSQL'),
     ],
     description:
-      'Flipkart Clone is done with top-notch features for the entrepreneur startups like Flipkart. It has strong authentication system with SMS OTP verification. It has Paytm Integration so that it can get money from anywhere.',
+      `Unified Regulations Simplified Compliance.Acteria Strengthens the Governance Over Regulations, And Helps Organizations Achieve Compliance Easily. Mainly work on `,
     repoLink: '',
     sourceLink: 'https://acteria.com',
     category: [PROJECT_CATEGORY.FULL_STACK],
