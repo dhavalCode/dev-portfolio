@@ -27,9 +27,8 @@ export default function Contact() {
         formRef.current,
         process.env.PUBLIC_KEY
       );
-      console.log(result.text);
     } catch (error) {
-      console.log(error.text);
+      // intentional
     } finally {
       setIsSending(false);
     }
@@ -38,7 +37,7 @@ export default function Contact() {
     <section className="container mx-auto mt-5 px-5 pt-12 pb-10">
       <div className="mb-12 flex w-full flex-col text-center">
         <HeadingAnimate amount={1}>
-          <h2 className="text-center font-lato text-4xl font-semibold text-primary-700 dark:text-primary-300 sm:text-5xl">
+          <h2 className="text-center font-lato text-3xl font-semibold text-primary-700 dark:text-primary-300 sm:text-4xl">
             Get In Touch
           </h2>
         </HeadingAnimate>

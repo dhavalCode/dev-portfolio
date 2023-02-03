@@ -41,8 +41,7 @@ export const PROJECTS = [
       getSkillByLabel(FULLSTACK_SKILLS, 'PostgreSQL'),
     ],
     description:
-      `A smart restaurant system POS is a type of point of sale technology specifically designed for restaurants and food service businesses.
-      Mainly worked on proving billing management, kitchen management, QR Orders etc. `,
+      `A smart restaurant system proving billing management, kitchen management, QR Orders, Order settlement etc. `,
     repoLink: '',
     sourceLink: 'https://www.servofeat.com',
     category: [PROJECT_CATEGORY.FULL_STACK],
@@ -60,14 +59,14 @@ export const PROJECTS = [
       getSkillByLabel(FULLSTACK_SKILLS, 'PostgreSQL'),
     ],
     description:
-      `Unified Regulations Simplified Compliance.Acteria Strengthens the Governance Over Regulations, And Helps Organizations Achieve Compliance Easily. Mainly work on `,
+      `Unified Regulations Simplified Compliance tool. Acteria Strengthens the Governance Over Regulations, And Helps Organizations Achieve Compliance Easily. Mainly work on `,
     repoLink: '',
     sourceLink: 'https://acteria.com',
     category: [PROJECT_CATEGORY.FULL_STACK],
   },
   {
     imgSrc: 'https://images2.imgbox.com/79/5f/S3hu6kJs_o.jpg',
-    title: 'Flipkart Clone - E-Commerce Project )',
+    title: 'Flipkart Clone - E-Commerce Project',
     techIcons: [
       getSkillByLabel(FULLSTACK_SKILLS, 'HTML'),
       getSkillByLabel(FULLSTACK_SKILLS, 'CSS'),

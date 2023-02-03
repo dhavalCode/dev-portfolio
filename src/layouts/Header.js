@@ -7,12 +7,12 @@ import { ScrollContext } from '../context/ScrollContext';
 // ----------------------------------------------------------------------
 
 export default function Header({ darkModeEnabled, toggleMode }) {
-  const { isScroll } = useContext(ScrollContext);
+  const { isScroll, jumpToTop } = useContext(ScrollContext);
 
   return (
     <header className="container mx-auto">
       <nav
-        className={`fixed top-0 right-0 z-[1000] flex w-full items-center justify-between h-16 px-4 md:h-16 md:px-[4%] ${
+        className={`fixed top-0 right-0 z-[1000] flex h-16 w-full items-center justify-between px-4 md:h-16 md:px-[4%] ${
           isScroll ? 'backdrop-blur-xl backdrop-filter' : ''
         }`}
       >
@@ -21,7 +21,12 @@ export default function Header({ darkModeEnabled, toggleMode }) {
           animate={{ opacity: 1, scale: 1, x: 0 }}
           transition={{ duration: 2, delay: 0.5 }}
         >
-          <h3 className="text-md font-lato font-semibold tracking-widest md:text-2xl">&lt;DhavalPatel /&gt;</h3>
+          <h3
+            className="text-md cursor-pointer font-lato font-semibold tracking-widest md:text-2xl"
+            onClick={jumpToTop}
+          >
+            &lt;DhavalPatel /&gt;
+          </h3>
         </motion.div>
         <motion.div
           initial={{ opacity: 0, scale: 0.5, x: 200 }}

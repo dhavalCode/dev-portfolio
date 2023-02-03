@@ -18,6 +18,13 @@ ScrollProvider.propTypes = {
 function ScrollProvider({ children }) {
   const [isScroll, setIsScroll] = useState(false);
 
+  const jumpToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
+
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 70) {
@@ -36,6 +43,7 @@ function ScrollProvider({ children }) {
     <ScrollContext.Provider
       value={{
         isScroll: isScroll,
+        jumpToTop: jumpToTop,
       }}
     >
       {children}

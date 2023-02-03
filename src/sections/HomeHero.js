@@ -8,6 +8,7 @@ import mainImg from '../assets/images/logo.png';
 // other
 import { aboutParagraph, HERO_TITLES } from '../mock/profile';
 import { ScrollContext } from '../context/ScrollContext';
+import ScrollToTop from '../components/ScrollToTop';
 
 // ----------------------------------------------------------------------
 
@@ -66,6 +67,7 @@ export default function HomeHero() {
           <span className="down-arrow-3 border-r-2 border-b-2 border-solid border-primary-700 dark:border-primary-300" />
         </div>
       </div>
+      <ScrollToTop/>
     </section>
   );
 }

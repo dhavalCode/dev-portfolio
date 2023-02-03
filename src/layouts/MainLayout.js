@@ -9,7 +9,7 @@ import useDarkMode from '../hooks/useDarkMode';
 // -----------------------------------------------------------
 
 export default function MainLayout({ children, meta }) {
-  const  { darkModeEnabled, toggleMode } = useDarkMode();
+  const { darkModeEnabled, toggleMode } = useDarkMode();
 
   return (
     <>

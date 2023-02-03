@@ -17,7 +17,7 @@ export default function Skills() {
     <>
       <section className="container mx-auto mt-16 text-center sm:mt-10">
         <HeadingAnimate>
-          <h2 className="mb-5 font-lato text-4xl font-semibold text-primary-700 dark:text-primary-300 sm:text-5xl">
+          <h2 className="mb-5 font-lato text-3xl font-semibold text-primary-700 dark:text-primary-300 sm:text-4xl">
             What i do
           </h2>
         </HeadingAnimate>
@@ -30,7 +30,7 @@ export default function Skills() {
             </div>
             <div className="flex flex-col items-center text-center md:w-1/2 md:items-start md:pl-16 md:text-left lg:flex-grow lg:pl-24">
               <HeadingAnimate>
-                <h1 className="mb-4 text-2xl font-semibold tracking-wide text-primary-700 dark:text-primary-300 sm:text-3xl">
+                <h1 className="mb-4 text-xl font-semibold tracking-wide text-primary-700 dark:text-primary-300 sm:text-2xl">
                   Full Stack Development
                 </h1>
               </HeadingAnimate>
@@ -64,7 +64,7 @@ export default function Skills() {
             </div>
             <div className="flex flex-col items-center text-center md:w-1/2 md:items-start md:pl-16 md:text-left lg:flex-grow lg:pl-24">
               <HeadingAnimate>
-                <h1 className="mb-4 text-2xl font-semibold tracking-wide text-primary-700 dark:text-primary-300 sm:text-3xl">
+                <h1 className="mb-4 text-xl font-semibold tracking-wide text-primary-700 dark:text-primary-300 sm:text-2xl">
                   Cloud Infra-Architecture
                 </h1>
               </HeadingAnimate>

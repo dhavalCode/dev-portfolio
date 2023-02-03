@@ -16,6 +16,6 @@ export const SOCIAL_LINKS = [
 export const HERO_TITLES = ['Dhaval Patel', 'Full-stack Developer', 'Javascript Enthusiast'];
 
 export const aboutParagraph =
-  'Highly motivated and enthusiastic Full Stack Developer with expertise in delivering user-friendly interfaces, REST APIs, and integrating front-end and back-end components.';
+  'Highly motivated and enthusiastic Full Stack Developer with experience in designing, developing and maintaining web applications using technologies such as JavaScript, React, Node.js. ';
 
 export const contactEmail = 'works.dhaval@gmail.com';
