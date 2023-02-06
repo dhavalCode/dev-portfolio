@@ -21,7 +21,7 @@ export default function Contact() {
     try {
       setIsSending(true);
 
-      const result = await emailjs.sendForm(
+      await emailjs.sendForm(
         process.env.EMAIL_SERVICE_ID,
         process.env.EMAIL_TEMPLATE_ID,
         formRef.current,

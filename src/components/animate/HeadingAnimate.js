@@ -5,10 +5,10 @@ import PropTypes from 'prop-types';
 function HeadingAnimate({ children, amount = 0.5 }) {
   return (
     <motion.div
-      initial={{ opacity: 0, scale: 0.5, x: -10, }}
-      whileInView={{ opacity: 1, scale: 1, x: 0 }}
+      initial={{ opacity: 0, scale: 0.7}}
+      whileInView={{ opacity: 1, scale: 1}}
       transition={{
-        duration: 0.7,
+        duration: 0.5,
       }}
       viewport={{ once: false, amount: amount }}
     >

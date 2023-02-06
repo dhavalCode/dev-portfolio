@@ -32,7 +32,7 @@ export default function HomeHero() {
             duration: 3,
             delay: 1.7,
           }}
-          viewport={{ once: true}}
+          viewport={{ once: true }}
         >
           <Image src={mainImg} className="w-52 object-contain lg:w-64" alt="Logo" />
         </motion.div>
@@ -52,12 +52,15 @@ export default function HomeHero() {
             <Cursor />
           </span>
         </h1>
-        <p className='md:w-3/5 text-center'>{aboutParagraph}</p>
+        <p className="text-center text-sm sm:text-base md:w-3/5">{aboutParagraph}</p>
         {/* Social Icons */}
         <SocialLinks />
       </div>
 
-      <div id="mouse-scroll" className={`ml-4 transition-all duration-200 ${isScroll ? 'opacity-0' : ''}`}>
+      <div
+        id="mouse-scroll"
+        className={`ml-4 hidden transition-all duration-200 ${isScroll ? 'opacity-0' : ''}`}
+      >
         <div className="mouse d border-2 border-solid border-primary-700 dark:border-primary-300">
           <div className="mouse-in bg-primary-700 dark:bg-primary-300" />
         </div>
@@ -67,7 +70,7 @@ export default function HomeHero() {
           <span className="down-arrow-3 border-r-2 border-b-2 border-solid border-primary-700 dark:border-primary-300" />
         </div>
       </div>
-      <ScrollToTop/>
+      <ScrollToTop />
     </section>
   );
 }

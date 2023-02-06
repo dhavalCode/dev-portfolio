@@ -8,7 +8,7 @@ function LoadAnimate({ children, amount = 0.5 }) {
       initial={{ opacity: 0, x: -50 }}
       whileInView={{ opacity: 1, x: 0 }}
       transition={{
-        duration: 0.7,
+        duration: 0.5,
       }}
       viewport={{ once: false, amount: amount }}
     >

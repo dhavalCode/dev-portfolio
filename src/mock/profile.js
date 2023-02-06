@@ -19,3 +19,5 @@ export const aboutParagraph =
   'Highly motivated and enthusiastic Full Stack Developer with experience in designing, developing and maintaining web applications using technologies such as JavaScript, React, Node.js. ';
 
 export const contactEmail = 'works.dhaval@gmail.com';
+
+export const documentTitle = 'Hello I am Dhaval Patel | Full Stack Developer | Javascript Enthusiast'

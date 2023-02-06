@@ -59,7 +59,7 @@ export default function Skills() {
         {/* Cloud Infra-Architecture */}
         <LoadAnimate amount={0}>
           <div className="container mx-auto my-5 flex flex-col items-center p-5 md:flex-row">
-            <div className="mb-10 w-[100%] md:mb-0 md:w-1/2 lg:w-full lg:max-w-lg">
+            <div className="mb-10 w-full md:mb-0 md:w-1/2 lg:w-full lg:max-w-lg">
               <AnimatedLottie animationDataFile={cloudAnimationData} />
             </div>
             <div className="flex flex-col items-center text-center md:w-1/2 md:items-start md:pl-16 md:text-left lg:flex-grow lg:pl-24">

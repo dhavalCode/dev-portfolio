@@ -9,7 +9,7 @@ function ScrollToTop() {
   return (
     <button
       type="button"
-      className={`fixed bottom-7 right-5 rounded-full bg-primary-700 p-3 text-xs font-medium uppercase leading-tight text-primary-50 shadow-md transition-all duration-200 ease-in-out hover:bg-primary-700/80 hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-2 active:shadow-lg dark:border-primary-700 dark:bg-primary-500 dark:hover:bg-primary-700 dark:focus:ring-primary-600 ${
+      className={`fixed bottom-7 right-5 z-[2000] rounded-full bg-primary-700 p-3 text-xs font-medium uppercase leading-tight text-primary-50 shadow-md transition-all duration-200 ease-in-out hover:bg-primary-700/80 hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-2 active:shadow-lg dark:border-primary-700 dark:bg-primary-500 dark:hover:bg-primary-700 dark:focus:ring-primary-600 ${
         isScroll ? 'inline-block' : 'hidden'
       }`}
       onClick={jumpToTop}

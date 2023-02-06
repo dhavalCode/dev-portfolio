@@ -25,12 +25,12 @@ html {
   height: 0px;
 }
 ::-webkit-scrollbar-thumb {
-  background:  #6b6b6b;
+  background: #6b6b6b;
   border: 46px none #ffffff;
   border-radius: 7px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background:  rgba(12, 164, 235, 0.6);
+  background: rgba(12, 164, 235, 0.6);
 }
 ::-webkit-scrollbar-thumb:active {
   background: rgba(12, 164, 235, 0.6);
@@ -48,6 +48,15 @@ html {
 }
 ::-webkit-scrollbar-corner {
   background: transparent;
+}
+
+#works-tab {
+  overflow-x: scroll;
+  scrollbar-width: none !important;
+}
+
+#works-tab::-webkit-scrollbar {
+  display: none !important;
 }
 
 #mouse-scroll {
@@ -105,6 +114,12 @@ html {
 #mouse-scroll .mouse-in {
   -webkit-animation: animated-mouse 1.2s ease infinite;
   moz-animation: mouse-animated 1.2s ease infinite;
+}
+
+@media screen and (min-height: 650px) {
+  #mouse-scroll {
+    display: block;
+  }
 }
 
 @-webkit-keyframes animated-mouse {

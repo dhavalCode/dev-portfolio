@@ -40,8 +40,7 @@ export const PROJECTS = [
       getSkillByLabel(FULLSTACK_SKILLS, 'Node.js'),
       getSkillByLabel(FULLSTACK_SKILLS, 'PostgreSQL'),
     ],
-    description:
-      `A smart restaurant system proving billing management, kitchen management, QR Orders, Order settlement etc. `,
+    description: `A smart restaurant system proving billing management, kitchen management, QR Orders, Order settlement etc. `,
     repoLink: '',
     sourceLink: 'https://www.servofeat.com',
     category: [PROJECT_CATEGORY.FULL_STACK],
@@ -58,8 +57,7 @@ export const PROJECTS = [
       getSkillByLabel(FULLSTACK_SKILLS, 'Node.js'),
       getSkillByLabel(FULLSTACK_SKILLS, 'PostgreSQL'),
     ],
-    description:
-      `Unified Regulations Simplified Compliance tool. Acteria Strengthens the Governance Over Regulations, And Helps Organizations Achieve Compliance Easily. Mainly work on `,
+    description: `Unified Regulations Simplified Compliance tool. Acteria Strengthens the Governance Over Regulations, And Helps Organizations Achieve Compliance Easily. Mainly work on `,
     repoLink: '',
     sourceLink: 'https://acteria.com',
     category: [PROJECT_CATEGORY.FULL_STACK],
