@@ -13,8 +13,8 @@
  - Useful for the freelancing journey 🚀. You can showcase your skills and the works you have done.   
  - Highly customizable portfolio. You can easily customize it as you want.     
 
-## Magic 🚀
-[click here to see magic](https://dhavalcode.com)
+## Live Demo 🚀
+[don't click here](https://dhavalcode.com)
 
 ## Technologies Used 🖥️
 
