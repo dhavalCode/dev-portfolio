@@ -5,7 +5,7 @@
 
 <p align="center">
   <kbd>
-<img src="overview.gif"></img>
+<img src="/overview.gif"></img>
   </kbd>
 </p>
 
