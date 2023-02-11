@@ -1,14 +1,14 @@
 export const SOCIAL_LINKS = [
   {
-    link: '//twitter.com/dhavalCode',
-    icon: 'akar-icons:twitter-fill',
+    link: 'https://twitter.com/dhavalCode',       
+    icon: 'akar-icons:twitter-fill',        
   },
   {
-    link: '//github.com/dhavalcode',
+    link: 'https://github.com/dhavalcode',
     icon: 'akar-icons:github-fill',
   },
   {
-    link: '//linkedin.com/in/dhavalcode',
+    link: 'https://linkedin.com/in/dhavalcode',
     icon: 'akar-icons:linkedin-fill',
   },
 ];

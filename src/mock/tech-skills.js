@@ -1,4 +1,4 @@
-export const FULLSTACK_SKILLS = [
+export const FRONTEND_SKILLS = [
   {
     label: 'HTML',
     proficiency: '80%',
@@ -63,7 +63,13 @@ export const FULLSTACK_SKILLS = [
     label: 'Bootstrap',
     proficiency: '90%',
     icon: 'logos:bootstrap',
-    iconClasses: 'text-3xl',
+    iconClasses: 'text-2xl',
+  },
+  {
+    label: 'Styled Components',
+    proficiency: '90%',
+    icon: 'simple-icons:styled-components',
+    iconClasses: 'text-4xl',
   },
   {
     label: 'Redux',
@@ -72,11 +78,32 @@ export const FULLSTACK_SKILLS = [
     iconClasses: 'text-3xl',
   },
   {
+    label: 'React Router',
+    proficiency: '90%',
+    icon: 'logos:react-router',
+    iconClasses: 'text-xl',
+  },
+  {
     label: 'React Query',
     proficiency: '90%',
     icon: 'logos:react-query-icon',
     iconClasses: 'text-3xl',
   },
+  {
+    label: 'React Hook Form',
+    proficiency: '90%',
+    icon: 'fluent:form-20-regular',
+    iconClasses: 'text-3xl',
+  },
+  {
+    label: 'Lodash',
+    proficiency: '90%',
+    icon: 'logos:lodash',
+    iconClasses: 'text-xl',
+  },
+];
+
+export const BACKEND_SKILLS = [
   {
     label: 'Node.js',
     proficiency: '90%',
@@ -108,6 +135,12 @@ export const FULLSTACK_SKILLS = [
     iconClasses: 'text-3xl',
   },
   {
+    label: 'Sequelize',
+    proficiency: '90%',
+    icon: 'vscode-icons:file-type-sequelize',
+    iconClasses: 'text-3xl',
+  },
+  {
     label: 'PostgreSQL',
     proficiency: '90%',
     icon: 'vscode-icons:file-type-pgsql',
@@ -125,14 +158,6 @@ export const FULLSTACK_SKILLS = [
     icon: 'vscode-icons:file-type-mongo',
     iconClasses: 'text-3xl',
   },
-];
-
-export const FULLSTACK_DESCRIPTIONS = [
-  'Building resposive website front end using React-Redux',
-  'Building resposive website front end using React-Redux',
-];
-
-export const CLOUD_SKILLS = [
   {
     label: 'AWS',
     proficiency: '80%',
@@ -144,12 +169,6 @@ export const CLOUD_SKILLS = [
     proficiency: '80%',
     icon: 'akar-icons:github-fill',
     iconClasses: 'text-3xl',
-  },
-  {
-    label: 'Github Actions',
-    proficiency: '80%',
-    icon: 'logos:github-actions',
-    iconClasses: 'text-2xl',
   },
   {
     label: 'Bitbucket',
@@ -164,12 +183,6 @@ export const CLOUD_SKILLS = [
     iconClasses: 'text-2xl',
   },
   {
-    label: 'Kubernetes',
-    proficiency: '80%',
-    icon: 'logos:kubernetes',
-    iconClasses: 'text-2xl',
-  },
-  {
     label: 'Heroku',
     proficiency: '80%',
     icon: 'logos:heroku-icon',
@@ -181,15 +194,16 @@ export const CLOUD_SKILLS = [
     icon: 'logos:vercel-icon',
     iconClasses: 'text-2xl',
   },
-  {
-    label: 'Nginx',
-    proficiency: '80%',
-    icon: 'logos:nginx',
-    iconClasses: 'text-2xl',
-  },
 ];
 
-export const CLOUD_DESCRIPTIONS = [
-  'Building resposive website front end using React-Redux',
-  'Building resposive website front end using React-Redux',
+export const FRONTEND_DESCRIPTIONS = [
+  'Building complex, interactive user interfaces using React js.',
+  'Building Large scale Web applications using state management library such as redux.',
+  'Building responsive Web Applications.',
+];
+
+export const BACKEND_DESCRIPTIONS = [
+  'Building RESTful APIs and GraphQL APIs.',
+  'Worked with various Node.js modules and libraries, such as Express to develop full-stack applications.',
+  'good understanding of database design in technologies such as PostgreSQL and MySQL.',
 ];

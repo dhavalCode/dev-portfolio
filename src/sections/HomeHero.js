@@ -13,7 +13,7 @@ import ScrollToTop from '../components/ScrollToTop';
 // ----------------------------------------------------------------------
 
 export default function HomeHero() {
-  const { isScroll } = useContext(ScrollContext);
+  const { isScroll, jumpToDown } = useContext(ScrollContext);
 
   return (
     <section className="container mx-auto mt-3 flex max-h-screen min-h-screen flex-col items-center justify-around px-5 md:px-1">
@@ -59,7 +59,8 @@ export default function HomeHero() {
 
       <div
         id="mouse-scroll"
-        className={`ml-4 hidden transition-all duration-200 ${isScroll ? 'opacity-0' : ''}`}
+        className={`ml-4 hidden cursor-pointer transition-all duration-200 ${isScroll ? 'opacity-0' : ''}`}
+        onClick={jumpToDown}
       >
         <div className="mouse d border-2 border-solid border-primary-700 dark:border-primary-300">
           <div className="mouse-in bg-primary-700 dark:bg-primary-300" />

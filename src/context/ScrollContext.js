@@ -24,6 +24,13 @@ function ScrollProvider({ children }) {
       behavior: 'smooth',
     });
   };
+  
+  const jumpToDown = () => {
+    window.scrollTo({
+      top: 600,
+      behavior: 'smooth',
+    });
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -44,6 +51,7 @@ function ScrollProvider({ children }) {
       value={{
         isScroll: isScroll,
         jumpToTop: jumpToTop,
+        jumpToDown: jumpToDown,
       }}
     >
       {children}
