@@ -1,11 +1,12 @@
-# Developer Portfolio 🔥 [![GitHub stars](https://img.shields.io/github/stars/dhavalCode/dev-portfolio)](https://github.com/dhavalCode/dev-portfolio/stargazers)
+# Developer Portfolio 🔥 
+
 
 ## A clean, modern and responsive dev portfolio using Tailwind CSS & Next JS
 
 
 <p align="center">
   <kbd>
-<img src="/overview.gif"></img>
+<img src="https://thumbs2.imgbox.com/e2/9c/OkTXdRTE_t.gif"></img>
   </kbd>
 </p>
 
