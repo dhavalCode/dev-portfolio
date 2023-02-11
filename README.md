@@ -6,7 +6,7 @@
 
 <p align="center">
   <kbd>
-<img src="https://thumbs2.imgbox.com/e2/9c/OkTXdRTE_t.gif"></img>
+    <img src="https://s9.gifyu.com/images/overview.gif"></img>
   </kbd>
 </p>
 
