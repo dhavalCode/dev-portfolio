@@ -28,40 +28,6 @@ const getSkillByLabel = (skills, techLabel) => skills.find(({ label }) => label 
 
 export const PROJECTS = [
   {
-    imgSrc: 'https://images2.imgbox.com/9a/99/kqwtfUDq_o.png',
-    title: 'Servofeat.com - Restaurant POS Systems',
-    techIcons: [
-      getSkillByLabel(FRONTEND_SKILLS, 'HTML'),
-      getSkillByLabel(FRONTEND_SKILLS, 'CSS'),
-      getSkillByLabel(FRONTEND_SKILLS, 'React.js'),
-      getSkillByLabel(FRONTEND_SKILLS, 'Material UI (mui)'),
-      getSkillByLabel(FRONTEND_SKILLS, 'Redux'),
-      getSkillByLabel(BACKEND_SKILLS, 'Node.js'),
-      getSkillByLabel(BACKEND_SKILLS, 'PostgreSQL'),
-    ],
-    description: `A smart restaurant system proving billing management, kitchen management, QR Orders, Order settlement etc. `,
-    repoLink: '',
-    sourceLink: 'https://www.servofeat.com',
-    category: [PROJECT_CATEGORY.FULL_STACK],
-  },
-  {
-    imgSrc: 'https://images2.imgbox.com/ad/94/w5IP0ZQz_o.png',
-    title: 'Acteria.com - Security Compliance Tool',
-    techIcons: [
-      getSkillByLabel(FRONTEND_SKILLS, 'HTML'),
-      getSkillByLabel(FRONTEND_SKILLS, 'CSS'),
-      getSkillByLabel(FRONTEND_SKILLS, 'React.js'),
-      getSkillByLabel(FRONTEND_SKILLS, 'Material UI (mui)'),
-      getSkillByLabel(FRONTEND_SKILLS, 'Redux'),
-      getSkillByLabel(BACKEND_SKILLS, 'Node.js'),
-      getSkillByLabel(BACKEND_SKILLS, 'PostgreSQL'),
-    ],
-    description: `Unified Regulations Simplified Compliance tool. Acteria Strengthens the Governance Over Regulations, And Helps Organizations Achieve Compliance Easily.`,
-    repoLink: '',
-    sourceLink: 'https://acteria.com',
-    category: [PROJECT_CATEGORY.FULL_STACK],
-  },
-  {
     imgSrc: 'https://images2.imgbox.com/79/5f/S3hu6kJs_o.jpg',
     title: 'Flipkart Clone - E-Commerce Project',
     techIcons: [

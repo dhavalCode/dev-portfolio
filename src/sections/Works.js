@@ -62,7 +62,7 @@ export default function Works() {
               ))}
             </ul>
 
-            <div className="mt-10 grid grid-cols-1 gap-5 gap-y-5 md:grid-cols-2 md:gap-y-7 lg:grid-cols-3 lg:px-7 xl:grid-cols-4 xl:px-0">
+            <div className="mt-10 grid grid-cols-1 gap-5 md:grid-cols-2 md:gap-y-7 lg:grid-cols-3 lg:px-7 xl:grid-cols-4 xl:px-0">
               {renderTabContent}
             </div>
           </div>

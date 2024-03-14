@@ -13,11 +13,11 @@ export const SOCIAL_LINKS = [
   },
 ];
 
-export const HERO_TITLES = ['Dhaval Patel', 'Full-stack Developer', 'Javascript Enthusiast'];
+export const HERO_TITLES = ['Dhaval Patel', 'Full-stack Engineer', 'AI Enthusiast'];
 
 export const aboutParagraph =
-  'Highly motivated and enthusiastic Full Stack Developer with experience in designing, developing and maintaining web applications using technologies such as JavaScript, React, Node.js. ';
+  'Highly motivated and enthusiastic Full Stack Engineer with experience in designing, developing and maintaining web applications using technologies such as Generative AI, Typescript, React, Next.js, Node.js, Python.';
 
 export const contactEmail = 'works.dhaval@gmail.com';
 
-export const documentTitle = 'Hello I am Dhaval Patel | Full Stack Developer | Javascript Enthusiast'
+export const documentTitle = 'Hello I am Dhaval Patel | Full Stack Engineer | AI Enthusiast'
